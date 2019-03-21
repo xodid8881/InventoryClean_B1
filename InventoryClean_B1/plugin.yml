@@ -1,0 +1,17 @@
+name: InventoryClear
+main: InventoryClear\InventoryClear
+version: B1
+author: Sanea
+api:
+- 4.0.0
+- 3.6.1
+
+commands:
+ 인벤토리:
+  description: clearcommands
+  permission: clear.user.command
+
+permissions:
+ clear.user.command:
+  description: "USER"
+  default: true
